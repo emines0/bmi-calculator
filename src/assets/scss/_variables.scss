@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+// Fonts
+$fontFamily: 'Inter', sans-serif;
+$fontSize: 16px;
+$fontSmall: 14px;
+
+// Colors
+$primaryColor: hsla(215, 31%, 21%, 1);
+$secondaryColor: hsla(227, 92%, 58%, 1);
+$lightBlue: #e7f5fe;
+$borderColor: hsla(200, 24%, 88%, 1);
+$darkColor: hsl(235, 18%, 26%);
+$greyColor: hsla(215, 17%, 44%, 1);
+$greyBlueGradient: linear-gradient(
+  290deg,
+  #d6e6fe 0%,
+  rgba(213.73, 251.53, 253.94, 0) 100%
+);
+
+$blueGradient: linear-gradient(
+  180deg,
+  rgb(52.38, 95.09, 246.5) 0%,
+  rgb(88.19, 124.89, 255) 100%
+);
+$backgroundColor: hsl(0, 0%, 100%);
+
+// Breakpoints
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1100px;

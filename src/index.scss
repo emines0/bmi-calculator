@@ -1,0 +1,50 @@
+/* Font */
+@import './assets/scss/variables';
+@import './assets/scss/utilities';
+@import './assets/scss/mixins';
+
+/* Generals */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $backgroundColor;
+  position: relative;
+  font-family: $fontFamily;
+  color: $primaryColor;
+  font-size: $fontSize;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+input:focus {
+  outline: 0;
+}
+
+@import './assets/scss/hero';
+@import './assets/scss/calculator';
+@import './assets/scss/imperial';
+@import './assets/scss/metric';
